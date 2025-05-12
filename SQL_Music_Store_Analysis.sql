@@ -1,5 +1,5 @@
  SELECT * FROM employee
- /*	Question Set 1 - Easy */
+ 
 
 /* Q1: Who is the senior most employee based on job title? */
  select * from employee
@@ -41,10 +41,5 @@ group by customer.customer_id
 order by HIGHEST desc
 LIMIT 1
 
-
-/* Question Set 2 - Moderate */
-
-/* Q1: Write query to return the email, first name, last name, & Genre of all Rock Music listeners. 
-Return your list ordered alphabetically by email starting with A. */
 
 
